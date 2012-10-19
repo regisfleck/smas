@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Verdadeiro::Application.config.secret_token = 'be484f52b61660f0f29b0e55a5fd80e0ef10e30c7cbbc94cd12c221d40f6c16a8a0e18fca731f0f0d7cb197a04fcfc7c8cf2b76597cfe8b3b6c7442195253302'
+Calendar::Application.config.secret_token = '32a5a4393fe5fb94e07ce8bc1ad1c37bcc1c052d12a2592a4c0a67db96409cdf8a700553bf6107254210984a7ba757a24b95874160586b1de4d5420d4de42db0'

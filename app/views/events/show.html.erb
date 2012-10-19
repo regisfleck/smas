@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Titulo:</b>
+  <%= @event.title %>
+</p>
+
+<p>
+  <b>Nome da pessoa:</b>
+  <%= @event.name_person %>
+</p>
+
+<p>
+  <b>Nome do profissional:</b>
+  <%= @event.name_professional%>
+</p>
+
+<p>
+  <b>Cpf/Nis:</b>
+  <%= @event.cpf%>
+</p>
+
+<p>
+  <b>Horario inicial:</b>
+  <%= @event.starts_at %>
+</p>
+
+<p>
+  <b>Horario final:</b>
+  <%= @event.ends_at %>
+</p>
+
+<p>
+  <b>Dia todo:</b>
+  <%= @event.all_day %>
+</p>
+
+<p>
+  <b>Descrição:</b>
+  <%= @event.description %>
+</p>
+
+
+<%= link_to 'Editar', edit_event_path(@event) %> |
+<%= link_to 'Voltar', events_path %>
